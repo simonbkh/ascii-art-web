@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ascii-art-web</title>
+</head>
+
+<body>
+    <center>
+        <h1>ASCII-ART-WEB</h1>
+        <form action="/" method="post">
+
+            <textarea name="input" rows="10" cols="40" maxlength="1000" placeholder="Enter your text here"
+                required></textarea>
+            <br>
+            <select>
+                <option>standard</option>
+                <option>shadow</option>
+                <option>thinkertoy</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </center>
+    <br>
+    {{.}}
+
+</body>
+
+</html>
