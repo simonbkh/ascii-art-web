@@ -10,12 +10,12 @@
 <body>
     <center>
         <h1>ASCII-ART-WEB</h1>
-        <form action="/" method="post">
+        <form action="/ascii-art" method="post">
 
             <textarea name="input" rows="10" cols="40" maxlength="1000" placeholder="Enter your text here"
                 required></textarea>
             <br>
-            <select>
+            <select name="banner">
                 <option>standard</option>
                 <option>shadow</option>
                 <option>thinkertoy</option>
@@ -25,7 +25,6 @@
         </form>
     </center>
     <br>
-    {{.}}
 
 </body>
 
